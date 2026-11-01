@@ -2,6 +2,21 @@ Elastic License 2.0
 
 URL: https://www.elastic.co/licensing/elastic-license
 
+## Additional Use Grant
+
+The licensor grants you an additional right to use the software in production,
+including as part of a hosted or managed service you provide to third parties,
+provided that your organisation's total annual gross revenue does not exceed
+USD $1,000,000 in the twelve months preceding your use.
+
+If your organisation's annual gross revenue exceeds USD $1,000,000, you must
+obtain a separate commercial licence from the licensor before continuing such
+use. To enquire about a commercial licence, contact: sivasathivel@yahoo.com
+
+This Additional Use Grant does not override the restriction on providing the
+software itself as a competing hosted or managed multi-agent orchestration
+service, regardless of revenue.
+
 ## Acceptance
 
 By using the software, you agree to all of the terms and conditions below.
