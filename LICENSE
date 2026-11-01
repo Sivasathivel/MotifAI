@@ -1,164 +1,102 @@
-Choreo-Mini Source License
-Version 1.2 (March 2026)
+Business Source License 1.1
 
-Copyright (c) 2026 Sivasathivel Kandasamy
-https://www.linkedin.com/in/sivasathivelkandasamy/
+Licensor:             Sivasathivel Kandasamy
+Licensed Work:        MotifAI
+                      The Licensed Work is (c) 2026 Sivasathivel Kandasamy
+                      https://github.com/Sivasathivel/MotifAI
 
-This license allows broad use of Choreo-Mini, including commercial use as a
-library or dependency, while restricting third-party productization of
-Choreo-Mini itself.
+Additional Use Grant: You may use the Licensed Work in production, including
+                      in commercial applications, provided that you do not
+                      offer the Licensed Work or a Derivative Work of the
+                      Licensed Work to third parties as a hosted or managed
+                      service where the primary value provided to users is
+                      access to the Licensed Work's functionality as a
+                      multi-agent LLM orchestration framework, agent workflow
+                      engine, or substantially similar product or service.
 
-1. Definitions
+                      For the avoidance of doubt:
+                      - Importing, linking to, or building applications on
+                        top of MotifAI is permitted without restriction,
+                        including for commercial use.
+                      - Publishing research, demos, or blog posts that use
+                        MotifAI is permitted without restriction.
+                      - Offering a product or service where MotifAI itself
+                        (or a fork of it) is the core offering being sold or
+                        licensed requires a separate commercial agreement.
 
-"Software" means this project, including its source code, build artifacts,
-and documentation released under this license.
+Change Date:          Four years from the release date of each version.
+                      (v0.3.0 → 2030-11-01)
 
-"Derivative Work" means any modification of the Software, or any work based
-on the Software, where Software code is changed, extended, or incorporated in
-a way that creates a derived codebase.
+Change License:       Apache License, Version 2.0
 
-For clarity, merely importing, linking, calling public APIs, or configuring
-the Software without modifying its code does not by itself create a
-Derivative Work.
+For information about alternative licensing arrangements, contact:
+sivasathivel@yahoo.com
 
-"Larger Work" means software that uses, links to, or depends on the Software,
-but is otherwise independently developed and not itself a Derivative Work.
+---
 
-"Productize" means, for third parties, to do any of the following with the
-Software or a Derivative Work:
-(a) sell, license, or sublicense it as a product, plugin, extension, toolkit,
-    model service, or API offering;
-(b) offer it as a hosted or managed service (including SaaS) where users
-    access its functionality over a network;
-(c) provide paid access to the Software or a Derivative Work, including when
-    bundled with other services.
+Terms
 
-"Internal Use" means use within your own legal entity and its controlled
-entities, where no external party receives direct access to the Software or a
-Derivative Work as a standalone offering.
+The Licensor hereby grants you the right to copy, modify, create derivative
+works, redistribute, and make non-production use of the Licensed Work. The
+Licensor may make an Additional Use Grant, above, permitting limited
+production use.
 
-2. License Grant
+Effective on the Change Date, or the fourth anniversary of the first publicly
+available distribution of a specific version of the Licensed Work under this
+License, whichever comes first, the Licensor hereby grants you rights under
+the terms of the Change License, and the rights granted in the paragraph
+above terminate.
 
-Subject to compliance with this license, you are granted a non-exclusive,
-worldwide, royalty-free right to:
-(a) use, run, and reproduce the Software for any purpose, including commercial
-    Internal Use;
-(b) modify the Software and create Derivative Works;
-(c) use the Software inside Larger Works, including proprietary applications;
-(d) distribute unmodified copies of the Software, provided this license and
-    attribution notices are included.
+If your use of the Licensed Work does not comply with the requirements
+currently in effect as described in this License, you must purchase a
+commercial license from the Licensor, its affiliated entities, or authorized
+resellers, or you must refrain from using the Licensed Work.
 
-3. Productization Restriction
+All copies of the original and modified Licensed Work, and derivative works
+of the Licensed Work, are subject to this License. This License applies
+separately for each version of the Licensed Work, and the Change Date may
+vary for each version of the Licensed Work released by the Licensor.
 
-Except for the original author (Sivasathivel Kandasamy), no person or entity
-may Productize the Software or any Derivative Work under this license.
+You must conspicuously display this License on each original or modified copy
+of the Licensed Work. If you receive the Licensed Work in original or modified
+form from a third party, the terms and conditions set forth in this License
+apply to your use of that work.
 
-This license does not provide a case-by-case approval or exception process for
-third-party Productization.
+Any use of the Licensed Work in violation of this License will automatically
+terminate your rights under this License for the current and all other
+versions of the Licensed Work.
 
-Clarification: using the Software as an internal dependency, build tool, or
-embedded library inside a Larger Work does not by itself constitute
-Productization, so long as the Software is not offered to third parties as a
-standalone product, API, plugin, extension, or hosted platform.
+This License does not grant you any right in any trademark or logo of
+Licensor or its affiliates (provided that you may use a trademark or logo of
+Licensor as expressly required by this License).
 
-Safe-harbor examples (permitted under this license):
-(a) using the Software in internal enterprise workflows, including commercial
-    business operations;
-(b) shipping a proprietary Larger Work that depends on the unmodified
-    Software, with required license notice retained;
-(c) using the Software in private build, testing, or deployment tooling.
+TO THE EXTENT PERMITTED BY APPLICABLE LAW, THE LICENSED WORK IS PROVIDED ON
+AN "AS IS" BASIS. LICENSOR HEREBY DISCLAIMS ALL WARRANTIES AND CONDITIONS,
+EXPRESS OR IMPLIED, INCLUDING (WITHOUT LIMITATION) WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, AND
+TITLE.
 
-Examples of prohibited third-party Productization:
-(a) selling a modified fork, plugin, or extension based on the Software;
-(b) offering a paid hosted API or SaaS where users access Software or
-    Derivative Work functionality over a network;
-(c) charging for direct access to Software or Derivative Work capabilities,
-    even when bundled with other paid services.
+MariaDB hereby grants you permission to use this License's text to license
+your works, and to refer to it using the trademark "Business Source License",
+as long as you comply with the Covenants of Licensor below.
 
-4. Copyleft for Distributed or Hosted Derivatives
+Covenants of Licensor
 
-If you distribute a Derivative Work to third parties, or make a Derivative
-Work available to third parties over a network (for example as a hosted API or
-service), you must:
-(a) provide the complete corresponding source code of that Derivative Work;
-(b) license that Derivative Work under this same license;
-(c) include this license text and preserve copyright notices;
-(d) clearly mark modified files.
+In consideration of the right to use this License's text and the "Business
+Source License" name and trademark, Licensor covenants to MariaDB, and to all
+recipients of the licensed work to be provided by Licensor:
 
-Scope limitation: this clause applies to the Software and Derivative Work
-portions only. It does not require disclosure of independent source code in a
-Larger Work that is not derived from the Software.
+1. To specify as the Change License the GPL Version 2.0 or any later version,
+   or a license that is compatible with GPL Version 2.0 or a later version,
+   where "compatible" means that software provided under the Change License can
+   be included in a program with software provided under GPL Version 2.0 or a
+   later version. Licensor may specify additional Change Licenses without
+   limitation.
 
-5. Citation and Attribution
+2. To either: (a) specify an additional grant of rights to use that does not
+   impose any additional restriction on the right granted in this License, as
+   the Additional Use Grant; or (b) insert the text "None".
 
-Any public materials or user-facing interface that references, demonstrates,
-or provides access to software using the Software or a Derivative Work must
-include visible attribution containing at least:
-- Project: Choreo-Mini
-- Author: Sivasathivel Kandasamy
-- Source: https://github.com/Sivasathivel/Choreo-mini
+3. To specify a Change Date.
 
-Examples include public repositories, documentation sites, demo pages,
-benchmark publications, product websites, and service UI pages. Backend-only
-private deployments with no public-facing materials are not required to
-display attribution.
-
-6. Contributions and Relicensing Rights
-
-By submitting any contribution for inclusion in this project (including pull
-requests, patches, or code changes), you agree that:
-(a) your contribution may be distributed under this license; and
-(b) you grant the author a perpetual, worldwide, irrevocable, royalty-free
-    right to use, modify, sublicense, and relicense your contribution,
-    including in future dual-licensed, commercial, or enterprise editions.
-
-You represent that you have the legal right to submit the contribution under
-these terms.
-
-7. Patent and Trademark
-
-Each contributor grants a non-exclusive, royalty-free patent license for patent
-claims necessarily infringed by their contribution as included in the Software.
-No trademark rights are granted by this license.
-
-8. Reserved Author Rights and Future Licensing
-
-The author reserves the exclusive right to:
-(a) publish enterprise, dual-licensed, or otherwise differently licensed
-    future versions; and
-(b) modify license terms for future releases.
-
-Rights granted for previously released versions are not retroactively revoked
-for recipients who remain in compliance with the license applicable to those
-versions.
-
-8A. Policy Files Incorporated by Reference
-
-In addition to the terms in this license, use of the Software and any
-Derivative Work is subject to the policy files listed below, each as updated
-by the author from time to time:
-(a) PROHIBITED_USES.md
-(b) EXCLUDED_ENTITIES.md
-
-The latest published versions of those files in the official repository are
-incorporated into this license by reference and are binding license
-conditions.
-
-Any use prohibited by PROHIBITED_USES.md, or any use by an entity listed in
-EXCLUDED_ENTITIES.md, is unlicensed under this license and constitutes a
-material breach for purposes of Termination.
-
-9. Disclaimer of Warranty and Limitation of Liability
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS
-FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHOR OR
-CONTRIBUTORS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN
-AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN
-CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-10. Termination
-
-Any material breach of this license automatically terminates rights granted
-under it. Rights may be reinstated only by explicit written notice from the
-author.
+4. Not to modify this License in any other way.
