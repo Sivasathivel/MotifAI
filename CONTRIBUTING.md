@@ -1,25 +1,25 @@
 # Contributing to MotifAI
 
-Thanks for helping improve MotifAI.
+## Code contributions
 
-## How to contribute
+MotifAI does not currently accept external code contributions. A contributor
+agreement framework is not yet in place, and accepting code without one would
+create licensing complications as the project grows.
 
-1. Open an issue to discuss larger changes.
-2. Create a focused pull request with tests where applicable.
-3. Keep changes scoped and documented.
+**Pull requests with code changes will not be merged at this time.**
 
-## Contribution licensing terms
+## What is welcome
 
-By submitting a pull request or any contribution for inclusion in this
-repository, you agree that:
+- **Bug reports** — open a GitHub Issue with a minimal reproducer
+- **Feature requests** — open a GitHub Issue describing the use case
+- **Questions and discussion** — GitHub Issues or Discussions
 
-1. Your contribution may be distributed as part of this project under
-   the MotifAI Source License (see LICENSE).
-2. You grant the maintainer (Sivasathivel Kandasamy) a perpetual,
-   worldwide, irrevocable, royalty-free right to use, modify, sublicense,
-   and relicense your contribution, including in future dual-licensed or
-   enterprise editions.
-3. You represent that you have the legal right to submit the contribution
-   under these terms.
+## Commercial licensing
 
-If you do not agree to these terms, do not submit contributions.
+For commercial use enquiries (organisations exceeding the ELv2 use
+restrictions), contact: sivasathivel@yahoo.com
+
+## When this changes
+
+Contributions will open once a CLA (Contributor License Agreement) is in
+place. Watch the repository for updates.
